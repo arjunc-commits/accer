@@ -1,6 +1,16 @@
 
 import './App.css'
-
+import PCGamesPass from "./assets/PCGamePass_2.png";
+import acer from "./assets/acer-4.svg";
+import monitor from "./assets/browse-popular-categories-monitors.avif";
+import chromebook from "./assets/browse-popular-categories-chromebooks.avif";
+import desktop from "./assets/browse-popular-categories-desktops.avif";
+import laptop from "./assets/browse-popular-categories-laptops.avif";
+import projectors from "./assets/browse-popular-categories-projectors.avif";
+import nitro from "./assets/nitro-radeon-rx-7900-gre-an-rx7900gre-oc-01-1.avif";
+import windows11 from "./assets/Windows-11.png";
+import vero from "./assets/vero-family.png";
+import windows11pro from "./assets/Windows-11-Pro_1.png"
 function App() {
 
 
@@ -19,7 +29,7 @@ function App() {
     </nav>
        <header className='w-full h-20 flex items-center px-4 md:px-10'>
        <div className='w-[70%] h-20 flex items-center px-17 '> 
-        <img src="/src/assets/acer-4.svg" alt="logo" className='h-5 ' />
+        <img src={acer} alt="logo" className='h-5 ' />
         <ul className='w-full hidden lg:flex list-none gap-15 font-semibold text-[20px] ml-25  '>
           <li>Store</li>
           <li>AI</li>
@@ -33,7 +43,7 @@ function App() {
      </div>
       </header>
         <div className='w-full h-[550px] bg-black flex justify-center'>
-          <img src='/src/assets/browse-popular-categories-monitors.avif 'alt='logo' className='h-100'></img>
+          <img src={monitor}alt='logo' className='h-100'></img>
 
 
 
@@ -42,36 +52,36 @@ function App() {
         <h1 className='text-5xl mt-13 font-bold'>Browse Popular Categories</h1>
          </div>
         <div className=' w-full  grid-flow-col auto-cols-max overflow-x-auto gap-6 px-4 flex  '>
-          <img src='/src/assets/browse-popular-categories-chromebooks.avif ' className='h-39'/>
-          <img src="/src/assets/browse-popular-categories-desktops.avif" alt="logo" className='h-39' />
-          <img src='/src/assets/browse-popular-categories-monitors.avif' alt='logo' className='h-39'/>
-          <img src='/src/assets/browse-popular-categories-projectors.avif' alt='logo' className='h-39'/>
-          <img src='/src/assets/browse-popular-categories-laptops.avif' alt='logo' className='h-39'/>
-          <img src='/src/assets/nitro-radeon-rx-7900-gre-an-rx7900gre-oc-01-1.avif' alt='logo' className='h-39'></img>
+          <img src={chromebook} className='h-39'/>
+          <img src={desktop} alt="logo" className='h-39' />
+          <img src={monitor} alt='logo' className='h-39'/>
+          <img src={projectors} alt='logo' className='h-39'/>
+          <img src={laptop} alt='logo' className='h-39'/>
+          <img src={nitro} alt='logo' className='h-39'></img>
       </div>     
       <div className='w-full '>
         <h1 className='text-5xl flex justify-center mt-35 font-bold '>Discover More with Acer</h1>
         <div className='w-full grid px-14 mt-18  gap-9 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 overflow-x-auto'>
           <div className='w-full'>
-          <img src='/src/assets/Windows-11.png' alt='logo' className='h-45 w-full object-cover'></img>
+          <img src={windows11} alt='logo' className='h-45 w-full object-cover'></img>
           <p className='text-2xl font-bold mt-5'>Windows 11</p>
           <p className='mt-3 text-lg'>Introducing Windows 11</p>
           <p className='mt-6 text-green-500 text-2xl hover:underline '>Learn More</p>
           </div>
           <div className='w-full'>
-          <img src='/src/assets/PCGamePass_2.png' alt='logo' className='h-45 w-full object-cover'></img>
+          <img src={PCGamesPass} alt='logo' className='h-45 w-full object-cover'></img>
           <p className='text-2xl font-bold mt-5'>PC GAME PASS</p>
           <p className='mt-3 text-lg'>Three-month trial included with your<br></br> new Acer laptop.</p>
           <p className='mt-6 text-green-500 text-2xl hover:underline'>Learn More</p>
           </div>
           <div className='w-full'>
-            <img src='/src/assets/vero-family.png' alt='logo' className='h-45 w-full object-cover'></img>
+            <img src={vero} alt='logo' className='h-45 w-full object-cover'></img>
             <p className='mt-5 text-2xl font-bold'>Acer Vero</p>
             <p className='mt-3 text-lg'>Green PC Products</p>
             <p className='mt-6 text-green-500 text-2xl hover:underline'>Learn More</p>
           </div>
           <div className='w-full'>
-            <img src='/src/assets/Windows-11-Pro_1.png'alt='logo' className='h-45 w-full object-cover'></img>
+            <img src={windows11pro}alt='logo' className='h-45 w-full object-cover'></img>
             <p className='text-2xl font-bold mt-5'>Windows 11 Pro</p>
             <p className='mt-3 text-lg'>Windows 11 Pro for Acer business<br></br> laptops</p>
             <p className='mt-6 text-green-500 text-2xl hover:underline'>Learn More</p>
