@@ -16,19 +16,20 @@ function App() {
 
   return (
     <>
-    <nav className='w-full   h-11.25  bg-gray-500 '>
-      <div className='w-auto h-11.25 flex items-center '>
-        <div className='w-[40%] '>
-        <p className='text-white px-25 font-bold lg:block hidden md:block'>Acer Brands</p>
+    <nav className='w-full   h-11.25  bg-black '>
+      <div className='w-full h-full flex items-center justify-center  rellative'>
+        <div className=' '>
+        <p className='text-white  font-bold lg:block hidden  absolute left-15 top-3  '>Acer Brands</p>
         </div>
-        <div className='w-[70%] '>
-        <p className='text-white font-bold  cursor-pointer hover:underline '>Discover the best deals at accer shop-shop now</p>
+        <div className=' '>
+        <p className='text-white font-bold  cursor-pointer hover:underline   '>Discover the best deals at accer shop-shop now</p>
         </div>
       </div>
 
     </nav>
        <header className='w-full h-20 flex items-center px-4 md:px-10'>
-       <div className='w-[70%] h-20 flex items-center px-17 '> 
+       <div className='w-ful h-full flex items-center gap-5  overflow-x-hidden'> 
+        <button className='ml-auto lg:hidden text-2xl'>☰</button>
         <img src={acer} alt="logo" className='h-5 ' />
         <ul className='w-full hidden lg:flex list-none gap-15 font-semibold text-[20px] ml-25  '>
           <li>Store</li>
@@ -39,7 +40,7 @@ function App() {
           <li>Support</li>
           <li>Events</li>
         </ul>
-        <button className='ml-auto md:hidden text-2xl'>☰</button>
+        
      </div>
       </header>
         <div className='w-full h-[550px] bg-black flex justify-center'>
@@ -48,7 +49,7 @@ function App() {
 
 
       </div>
-      <div className='w-full h-50 flex justify-center '>
+      <div className='w-full h-50 flex justify-center text-center '>
         <h1 className='text-5xl mt-13 font-bold'>Browse Popular Categories</h1>
          </div>
         <div className=' w-full  grid-flow-col auto-cols-max overflow-x-auto gap-6 px-4 flex  '>
@@ -59,29 +60,29 @@ function App() {
           <img src={laptop} alt='logo' className='h-39'/>
           <img src={nitro} alt='logo' className='h-39'></img>
       </div>     
-      <div className='w-full '>
+      <div className='w-full text-center '>
         <h1 className='text-5xl flex justify-center mt-35 font-bold '>Discover More with Acer</h1>
         <div className='w-full grid px-14 mt-18  gap-9 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 overflow-x-auto'>
           <div className='w-full'>
-          <img src={windows11} alt='logo' className='h-45 w-full object-cover'></img>
+          <img src={windows11} alt='logo' className='h-auto w-full object-cover'></img>
           <p className='text-2xl font-bold mt-5'>Windows 11</p>
           <p className='mt-3 text-lg'>Introducing Windows 11</p>
           <p className='mt-6 text-green-500 text-2xl hover:underline '>Learn More</p>
           </div>
           <div className='w-full'>
-          <img src={PCGamesPass} alt='logo' className='h-45 w-full object-cover'></img>
+          <img src={PCGamesPass} alt='logo' className='h-auto w-full object-cover'></img>
           <p className='text-2xl font-bold mt-5'>PC GAME PASS</p>
           <p className='mt-3 text-lg'>Three-month trial included with your<br></br> new Acer laptop.</p>
           <p className='mt-6 text-green-500 text-2xl hover:underline'>Learn More</p>
           </div>
           <div className='w-full'>
-            <img src={vero} alt='logo' className='h-45 w-full object-cover'></img>
+            <img src={vero} alt='logo' className='h-auto w-full object-cover'></img>
             <p className='mt-5 text-2xl font-bold'>Acer Vero</p>
             <p className='mt-3 text-lg'>Green PC Products</p>
             <p className='mt-6 text-green-500 text-2xl hover:underline'>Learn More</p>
           </div>
           <div className='w-full'>
-            <img src={windows11pro}alt='logo' className='h-45 w-full object-cover'></img>
+            <img src={windows11pro}alt='logo' className='h-auto w-full object-cover'></img>
             <p className='text-2xl font-bold mt-5'>Windows 11 Pro</p>
             <p className='mt-3 text-lg'>Windows 11 Pro for Acer business<br></br> laptops</p>
             <p className='mt-6 text-green-500 text-2xl hover:underline'>Learn More</p>
